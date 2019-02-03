@@ -10,7 +10,7 @@ body {
 	line-height: 1.0;
 	word-wrap: break-word;
 	overflow-x: hidden;
-	background-color: #1A1A1E;
+	background-color: #000000;
 }
 
 u {
@@ -337,6 +337,7 @@ hr:before {
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
+	z-index: 1;
 }
 
 .icons li a {
